@@ -29,6 +29,7 @@
 <div style="text-align: center;margin-top: 140px;font-size: larger;font-family: 微软雅黑">登 录</div>
 <div class="body">
     <form action="login.do" method="post" >
+        <input type="hidden"/>
         <div class="input">账 户：<input type="text" name="username" value="赵云"/><br/></div>
         <div class="input">密 码：<input type="password" name="password" value="admin"/><br/></div>
         <div class="input">生 日：<input type="date" name="birthday" /><br/></div>
